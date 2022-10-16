@@ -1,0 +1,35 @@
+div.home{
+    padding: 0 5%;
+}
+
+h1#explore-section{
+    margin-bottom: 20px;
+}
+
+div.exploreCard > img{
+    height: 200px;
+}
+
+div.exploreCard{
+    display: flex;
+    margin: 20px 0;
+}
+
+div.exploreCard > div{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+
+div.eCardInfo{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+div.exploreReverse{
+    flex-direction: row-reverse;
+    text-align: right;
+}
