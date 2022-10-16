@@ -5,28 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketing - Austrália</title>
+    <link rel="stylesheet" href="src/style.css">
+    
 </head>
 <body>
     <section class="brand">
-        <video src="src/video/video01.mp4"></video>
+        <video src="src/video/video01.mp4" loop muted></video>
         <nav>
             <div class="brand">
-                <img src="." alt="" srcset="">
+                <img src="src/img/logo.jpg">
                 <h2>Australia</h2>
             </div>
             <div class="navOptions">
-                <button id="explore" class="navBtn">Explore</button>
-                <button class="navBtn">Culture</button>
-                <button class="navBtn" id="social-media">Social Media</button>
-                <button class="navBtn" id="travel">Travel</button>
+                <a href="#" type="submit" id="explore" class="navBtn">Explore</a>
+                <a class="navBtn">Culture</a>
+                <a class="navBtn" id="social-media">Social Media</a>
+                <a class="navBtn" id="travel">Travel</a>
             </div>
         </nav>
-        <div class="brendText">
+        <div class="brandText">
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet ornare consectetur. Duis posuere libero sed nulla elementum, ut pulvinar velit tempus. Fusce suscipit vehicula mauris. Nunc a massa at risus posuere auctor. Donec pulvinar lacinia vehicula. Mauris id dictum elit.</span>
+            <div class="search">
+                <input type="text" name="search" id="search" class="search" placeholder="Lorem Ipsum">
+                <button class="search">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+            </div>
         </div>
-        <input type="text" name="search" id="search" class="search">
-        <button class="search"></button>
     </section>
-
+    <section class="mainPage">
+         <div class="pageSelection">
+            <button class="pSelectionBtn" id="home">Home</button>
+            <button class="pSelectionBtn" id="videos">Videos</button>
+            <button class="pSelectionBtn" id="photos">Photos</button>
+         </div>
+    </section>
+    <footer>William at al. &copy; 2022</footer>
+    <script src="https://kit.fontawesome.com/c6444e5d29.js" crossorigin="anonymous"></script>
 </body>
 </html>

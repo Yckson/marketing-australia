@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2? family= Comfortaa & display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursiva;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+section.brand{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+
+}
+
+div.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.brand > img{
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+div.brand > h2{
+    font-size: 18pt;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 60px;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div.navOptions{
+    height: 100%;
+    display: flex;
+    align-content: center;
+}
+
+a.navBtn{
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 0px 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+a#travel{
+    border: solid white 1px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 17px 40px;
+}
+
+div.brandText{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+section.mainPage{
+    width: 100%;
+    background-color: white;
+}
+
+section.brand > video{
+    z-index: -1;
+    top: -30%;
+    width: 100%;
+    position: absolute;
+}
+
+div.brandText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15%;
+    color: white;
+}
+
+div.brandText > *{
+    margin: 10px 0;
+}
+
+div.brandText > span{
+    font-size: 14pt;
+}
+
+div.search{
+    border-radius: 5px;
+    display: flex;
+    padding: 2px;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+button.search{
+    background-color: white;
+    margin-left: -4px;
+    border: none;
+    background-color: white;
+    padding: 10px 0;
+    width: 5%;
+    text-align: center;
+
+}
+
+input.search{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    width: 95%;
+}
