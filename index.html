@@ -35,11 +35,11 @@
     </section>
     <section class="mainPage">
          <div class="pageSelection">
-            <button class="pSelectionBtn pSelectionBtn-clicked" id="home">Home</button>
-            <button class="pSelectionBtn" id="videos">Videos</button>
-            <button class="pSelectionBtn" id="photos">Photos</button>
+            <button class="pSelectionBtn pSelectionBtn-clicked" onclick="changePage('home')" id="home">Home</button>
+            <button class="pSelectionBtn" id="videos" onclick="changePage('videos')">Videos</button>
+            <button class="pSelectionBtn" id="photos" onclick="changePage('photos')">Photos</button>
          </div>
-         <div class="home hide" id="phome">
+         <div class="home" id="phome">
             <div class="exploreSection">
                 <h1 id="explore-section">Explore</h1>
                 <div class="exploreCard">
@@ -221,7 +221,7 @@
                 </div>
             </div>
          </div>
-         <div class="videos " id="videos">
+         <div class="videos hide" id="pvideos">
             <video src="src/video/video02.mp4" class="videoPortrait" loop controls></video>
             <video src="src/video/video03.mp4" class="videoPortrait" loop controls></video>
             <video src="src/video/video04.mp4" class="videoPortrait" loop controls></video>
@@ -231,9 +231,19 @@
             <video src="src/video/video07.mp4" class="videoPortrait" loop controls></video>
             <video src="src/video/video08.mp4" class="videoPortrait" loop controls></video>
          </div>
-         <div class="photos hide" id="photos"></div>
+         <div class="photos hide" id="pphotos">
+            <img src="src/img/img05.jpg" alt="" srcset="">
+            <img src="src/img/img06.jpg" alt="" srcset="">
+            <img src="src/img/img07.jpg" alt="" srcset="">
+            <img src="src/img/img08.jpg" alt="" srcset="">
+            <img src="src/img/img09.jpg" alt="" srcset="">
+            <img src="src/img/img10.jpg" alt="" srcset="">
+            <img src="src/img/img11.jpg" alt="" srcset="">
+            <img src="src/img/img12.jpg" alt="" srcset="">
+         </div>
     </section>
     <footer>William at al. &copy; 2022</footer>
     <script src="https://kit.fontawesome.com/c6444e5d29.js" crossorigin="anonymous"></script>
+    <script src="src/script.js"></script>
 </body>
 </html>
