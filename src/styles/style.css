@@ -2,6 +2,7 @@
 
 @import url('MQ-General.css');
 @import url('home.css');
+@import url('culture.css');
 
 
 *{
@@ -162,4 +163,23 @@ button.pSelectionBtn-clicked{
     background-color: black !important;
     border-radius: 10px !important;
     color: white;
+}
+
+div.homeDiv{
+    background-image: url('../img/img02.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 60px 0;
+}
+
+div.homeDiv > div{
+    padding: 60px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+div.homeDiv > div > h1{
+    margin-bottom: 60px;
 }

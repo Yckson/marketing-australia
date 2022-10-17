@@ -1,0 +1,20 @@
+div.home > div.cultureSection{
+    padding: 0 5%;
+    width: 100%;
+}
+
+h2#culture-section{
+    margin-bottom: 20px;
+}
+
+div.cultureVideo{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+div.cultureVideo > span {
+    width: 50%;
+}
