@@ -1,0 +1,19 @@
+div.videos{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.videos > video{
+    width: 20%;
+    margin: 20px;
+    border: 14px black solid;
+    border-radius: 5px;
+}
+
+video.landscape{
+    height: min-content;
+}
