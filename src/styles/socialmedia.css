@@ -1,0 +1,41 @@
+div.socialMediaSection{
+    width: 100%;
+    background-image: url('../img/img04.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+div.socialList{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+div.socialMediaSection h1{
+    margin-bottom: 25px;
+}
+
+div.socialList a{
+    text-decoration: none;
+    color: white;
+}
+
+div.socialList > div{
+    margin: 0 5vw;
+}
+
+.youtube > i{
+    color: red;
+}
+
+.instagram > i{
+    color: blueviolet;
+}
+
+.twitter > i{
+    color: rgb(41, 158, 255);
+}
