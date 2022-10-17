@@ -13,8 +13,41 @@ div.cultureVideo{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 65px;
+    border-bottom: 1px solid rgb(182, 182, 182);
+    padding-bottom: 50px;
 }
 
 div.cultureVideo > span {
     width: 50%;
+}
+
+div.cultureCards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+div.cultureCard{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20%;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+    color: rgb(88, 88, 88);
+    margin: 20px 25px;
+
+}
+
+div.cultureCard > img{
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 5px;
 }
